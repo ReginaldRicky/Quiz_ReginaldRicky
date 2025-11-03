@@ -12,7 +12,7 @@ class MahasiswaController
     public function index()
     {
         $data ['dashboard'] = 'Dashboard Mahasiswa';
-        return view('Mahasiswa', $data);
+        return view('mahasiswa/Mahasiswa', $data);
     }
 
     /**
